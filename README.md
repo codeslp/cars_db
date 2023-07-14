@@ -61,7 +61,7 @@ This project involves creating and normalizing a PostgreSQL database using a dat
 
    - **Run the Code**: Click on the notebook file (with the `.ipynb` extension) to open it. The notebook will open in a new tab. It is divided into cells, some of which contain text, while others contain Python code. You can run the cells in order by clicking on the cell and then clicking on the 'run' button at the top of the page, or by pressing `Shift + Enter`. Ensure to run all cells in order, as some cells might depend on the results of previous cells. 
 
-   - **Adjust the Code**: If needed, you can edit any of the code cells by clicking on them and making your changes. This might be necessary to adjust the database connection string, correct any errors, or adapt the code to a different dataset.
+   - **Adjust the Code**: If needed, you can edit any of the code cells by clicking on them and making your changes. This might be necessary to adjust the database connection string or adapt the code to a different dataset.
 
 ## Project Overview
 
