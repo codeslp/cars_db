@@ -53,15 +53,9 @@ This project involves creating and normalizing a PostgreSQL database using this 
 
 5. **Running the Jupyter Notebook**:
 
-   The project is contained within a Jupyter Notebook (.ipynb file). If you are not familiar with Jupyter Notebook, it is an open-source web application that allows you to create and share documents that contain both code (e.g., python or R) and rich text elements (paragraphs, equations, figures, links, etc...). Here's how to run it:
-
-   - **Install Jupyter**: If you don't have Jupyter installed on your system, you will need to install it. Jupyter is included in the Anaconda distribution of Python. You can install Anaconda following the instructions provided on their [official website](https://www.anaconda.com/products/distribution). Alternatively, you can install Jupyter independently by running the command `pip install jupyter` in your terminal or command prompt.
-
-   - **Open the Notebook**: Navigate to the directory containing the Jupyter Notebook file in the terminal or command prompt. You can then start the Jupyter Notebook application by running the command `jupyter notebook`. This will start the server and open a new page in your web browser with a list of the available notebooks in the current directory.
-
-   - **Run the Code**: Click on the notebook file (with the `.ipynb` extension) to open it. The notebook will open in a new tab. It is divided into cells, some of which contain text, while others contain Python code. You can run the cells in order by clicking on the cell and then clicking on the 'run' button at the top of the page, or by pressing `Shift + Enter`. Ensure to run all cells in order, as some cells might depend on the results of previous cells. 
-
-   - **Adjust the Code**: If needed, you can edit any of the code cells by clicking on them and making your changes. This might be necessary to adjust the database connection string or adapt the code to a different dataset.
+   The work of this project is done in car_table.ipynb. Open that up and run it.
+   
+   If you are not familiar with Jupyter Notebook, follow instructions [here to get started.](https://realpython.com/jupyter-notebook-introduction/)
 
 ## Project Overview
 
