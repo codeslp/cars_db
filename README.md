@@ -43,7 +43,7 @@ This project involves creating and normalizing a PostgreSQL database using a dat
 
         - Replace `your_postgres_username`, `your_postgres_password`, and `your_database_name` with your actual PostgreSQL username, password, and the name of the database you created.
 
-    - **Update the database connection string**: Open the Python script in a text editor. Look for the line where the database connection string is defined. It should look something like this:
+    - **Update the database connection string**: Open the car_table notebook in an editor. Look for the line where the database connection string is defined. It should look something like this:
 
         ```python
         engine = create_engine(f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@localhost/{DB_NAME}")
