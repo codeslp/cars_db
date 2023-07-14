@@ -3,6 +3,22 @@
 
 This project involves creating and normalizing a PostgreSQL database using this dataset of used cars: [Kaggle cars data](https://www.kaggle.com/datasets/rakkesharv/used-cars-detailed-dataset).
 
+## Project Overview
+
+The project performs the following tasks:
+
+1. **Data Loading**: The script starts by loading a dataset containing used car data.
+
+2. **Data Cleaning**: The following cleaning steps are performed:
+    - Stripping of trailing and leading whitespaces.
+    - Removal of punctuation marks.
+    - Standardization of date formats.
+
+3. **Data Normalization**: The cleaned data is then normalized according to the rules of First Normal Form (1NF), Second Normal Form (2NF). 
+
+4. **Database Population**: After normalization, the data is loaded into a PostgreSQL database. This involves creation of the necessary tables, and insertion of the data into the tables.
+
+## For details on how I planned and tracked this process look at [this notebook](https://github.com/codeslp/cars_db/blob/master/to_do.ipynb)
 ## Setup
 
 1. Clone this repository to your local machine.
@@ -57,19 +73,3 @@ This project involves creating and normalizing a PostgreSQL database using this 
    
    If you are not familiar with Jupyter Notebook, follow instructions [here to get started.](https://realpython.com/jupyter-notebook-introduction/)
 
-## Project Overview
-
-The project performs the following tasks:
-
-1. **Data Loading**: The script starts by loading a dataset containing used car data.
-
-2. **Data Cleaning**: The following cleaning steps are performed:
-    - Stripping of trailing and leading whitespaces.
-    - Removal of punctuation marks.
-    - Standardization of date formats.
-
-3. **Data Normalization**: The cleaned data is then normalized according to the rules of First Normal Form (1NF), Second Normal Form (2NF). 
-
-4. **Database Population**: After normalization, the data is loaded into a PostgreSQL database. This involves creation of the necessary tables, and insertion of the data into the tables.
-
-Consult the file "to_do.ipynb" for specific notes on normalization and standardization. 
