@@ -1,7 +1,7 @@
 
 # Used Cars Database Normalization Project
 
-This project involves creating and normalizing a PostgreSQL database using a dataset of used cars.
+This project involves creating and normalizing a PostgreSQL database using this dataset of used cars: [Kaggle cars data](https://www.kaggle.com/datasets/rakkesharv/used-cars-detailed-dataset).
 
 ## Setup
 
